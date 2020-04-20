@@ -1,0 +1,60 @@
+section #principal{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+#comandos{
+	display: inline-block;
+	border: 1px solid black;
+	min-height: 312px;
+	vertical-align: top;
+	width: 25%;
+}
+
+#tablero{
+	display: inline-block;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+}
+
+#tablero input{
+	font-size: 3em;
+	height: 80px;
+	margin: 10px;
+	width: 80px;
+}
+
+input[type="button"]#empezar #recargar{
+	font-size: 0.8em;
+	padding: 0.3em;
+	/*background-image: url("E:/Facultad/Programacion Avanzada/css/play.png");*/
+}
+#ganador {
+	vertical-align: center;
+ 	font-weight: bolder;
+}
+
+label{
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.botonInicial{
+	color: #77d;
+	background-color: #77d; 
+}
+
+.botonJugador1{
+	color: white;
+	background-color: #d77; 
+}
+
+.botonJugador2{
+	color: white;
+	background-color: #7d7;
+}

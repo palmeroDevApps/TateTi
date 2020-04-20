@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Tateti Cristian Palmero</title>
+
+		<!--Estilos Css-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+		<!-- Archivos JS o mis scripts -->
+  		<script type="text/javascript" src="js/main.js"></script>
+
+	</head>
+	<body>
+		<h1>Tateti Online</h1>
+		<section id="global">
+			<section id="principal">
+				<div id="comandos">
+					<form>
+						<label for="jugador1">Jugador Uno: </label>
+						<br/>
+						<input type="text" id="jugador1">
+						<br/>
+						<label for="jugador2">Jugador Dos: </label>	
+						<br/>
+						<input type="text" id="jugador2">
+						<br/>
+						<label id="turnoJugador"></label>
+						<br/>
+						<input type="button" id="empezar" value="Empezar"></input>
+						<input type="button" id="recargar" value="Revancha!" />
+						<hr><!--
+						<br>
+						<span id="victorias1"></span><br>
+						<span id="victorias2"></span><br>
+						<span id="empates"></span> -->
+					</form>
+				</div>
+				<div id="tablero">
+					<input type="button" id="but0" onclick="colocar(this)"></input>
+					<input type="button" id="but1" onclick="colocar(this)"></input>
+					<input type="button" id="but2" onclick="colocar(this)"></input>
+						<br/>
+					<input type="button" id="but3" onclick="colocar(this)"></input>
+					<input type="button" id="but4" onclick="colocar(this)"></input>
+					<input type="button" id="but5" onclick="colocar(this)"></input>
+						<br/>
+					<input type="button" id="but6" onclick="colocar(this)"></input>
+					<input type="button" id="but7" onclick="colocar(this)"></input>
+					<input type="button" id="but8" onclick="colocar(this)"></input>
+				</div>
+				<span id="ganador"><strong></strong></span>
+			</section> 
+			<footer>
+			TaTeTi Cristian Palmero &copy;
+		</footer>
+	</body>	
+</html>
+
